@@ -20,7 +20,43 @@
 #define MAGIC        3
 #define FACTORY_TEST 4
 
+/**
+* index=(row×NUMBER_OF_COLUMNS)+column
+* RC(0, 0) = (0 * 14) + 0
+* RC(0, 1) = (0 * 14) + 1
+*
+* q = 29
+* w = 30
+* e = 31
+* r = 32
+*
+* a = RC(3, 1) = 43
+* s = RC(3, 2) = 44
+* d = RC(3, 3) = 45
+* f = RC(3, 4) = 46
+*
+*
+* u = 37
+* i = 38
+* o = 39
+* p = 40
+* j = RC(3, 9) = 51
+* k = RC(3, 10) = 52
+* l = RC(3, 11) = 53
+* ; = RC(3, 12) = 54
+*/
+
 / {
+    combos {
+        //
+        compatible = "zmk,combod";
+
+        combo_lcmd {
+            timeout-ms = <50>;
+            key-positions = <29 43>;
+            bindings = <&kp LGUI>;
+        };
+    };
     behaviors {
         // For the "layer" key, it'd nice to be able to use it as either a shift or a toggle.
         // Configure it as a tap dance, so the first tap (or hold) is a &mo and the second tap is a &to
@@ -116,7 +152,7 @@
             &kp F1         &kp F2      &kp F3      &kp F4       &kp F5                                                                                          &kp F6       &kp F7      &kp F8      &kp F9        &kp F10
             &none          &kp N1      &kp N2      &kp N3       &kp N4       &kp N5                                                                     &kp N6  &kp N7       &kp N8      &kp N9      &kp N0        &none
             &kp TAB        &kp Q       &kp W       &kp E        &kp R        &kp T                                                                      &kp Y   &kp U        &kp I       &kp O       &kp P         &none
-            &kp ESC        &hm LGUI A  &hm LALT S  &hm LCTRL D  &hm LSHIFT F &kp G                                                                      &kp H   &hm RSHIFT J &hm RCTRL K &hm RALT L  &hm LGUI SEMI &kp SQT
+            &kp ESC        &kp A       &hm LALT S  &hm LCTRL D  &hm LSHIFT F &kp G                                                                      &kp H   &hm RSHIFT J &hm RCTRL K &hm RALT L  &hm LGUI SEMI &kp SQT
             &none          &kp Z       &kp X       &kp C        &kp V        &kp B   &mo LOWER   &kp LCTRL   &layer_td  &kp LGUI  &kp RCTRL &mo SYMBOL  &kp N   &kp M        &kp COMMA   &kp DOT     &kp FSLH      &none
             &magic MAGIC 0 &none       &none       &none        &kp DELETE           &kp ENTER   &kp TAB     &kp LALT   &kp RALT  &kp RET   &kp SPACE           &kp BSPC     &none       &none       &none         &none
             >;
