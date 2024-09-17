@@ -85,7 +85,7 @@
         //
         compatible = "zmk,combod";
         combo_m_the {
-            timeout-ms = <200>;
+            timeout-ms = <COMBO_TIMEOUT>;
             key-positions = <P_T P_H>;
             bindings = <&kp T>;
         };
