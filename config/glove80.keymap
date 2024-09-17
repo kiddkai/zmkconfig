@@ -81,13 +81,11 @@
 #define MACRO_WAIT 0
 
 / {
-    macros {
-    };
     combos {
         //
         compatible = "zmk,combod";
         combo_m_the {
-            timeout-ms = <COMBO_TIMEOUT>;
+            timeout-ms = <200>;
             key-positions = <P_T P_H>;
             bindings = <&kp T>;
         };
