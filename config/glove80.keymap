@@ -82,20 +82,14 @@
 
 / {
     macros {
-        ZMK_MACRO(m_the,
-            wait-ms = <MACRO_WAIT>;
-            tap-ms = <MACRO_TAP>;
-            bindings = <&kp T &kp H &kp E &kp SPACE>;
-        )
     };
     combos {
         //
         compatible = "zmk,combod";
-
         combo_m_the {
             timeout-ms = <COMBO_TIMEOUT>;
             key-positions = <P_T P_H>;
-            bindings = <&m_the>;
+            bindings = <&kp T>;
         };
         // combo_lcmd {
         //     timeout-ms = <50>;
