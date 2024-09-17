@@ -44,13 +44,59 @@
 * k = RC(3, 10) = 52
 * l = RC(3, 11) = 53
 * ; = RC(3, 12) = 54
+
+* index=(row×NUMBER_OF_COLUMNS)+column
+* t = RC(2, 5) = 2 * 14 + 5
 */
 
+#define P_A 43
+#define P_B 61
+#define P_C 59
+#define P_D 45
+#define P_E 31
+#define P_F 46
+#define P_G 47
+#define P_H 48
+#define P_I 36
+#define P_J 49
+#define P_K 50
+#define P_L 51
+#define P_M 69
+#define P_N 68
+#define P_O 37
+#define P_P 38
+#define P_Q 29
+#define P_R 32
+#define P_S 44
+#define P_T 33
+#define P_U 35
+#define P_V 60
+#define P_W 30
+#define P_X 58
+#define P_Y 34
+#define P_Z 57
+
+#define COMBO_TIMEOUT 200
+#define MACRO_TAP 10
+#define MACRO_WAIT 0
+
 / {
+    macros {
+        ZMK_MACRO(m_the,
+            wait-ms = <MACRO_WAIT>;
+            tap-ms = <MACRO_TAP>;
+            bindings = <&kp T &kp H &kp E &kp SPACE>;
+        )
+    };
     combos {
         //
         compatible = "zmk,combod";
 
+        combo_m_the {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <P_T P_H>;
+            bindings = <&m_the>;
+        };
         // combo_lcmd {
         //     timeout-ms = <50>;
         //     key-positions = <29 43>;
@@ -77,17 +123,16 @@
             bindings = <&mo>, <&rgb_ug_status_macro>;
         };
 
-	hm: homerow_mods {
+	    hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             flavor = "tap-preferred";
             #binding-cells = <2>;
             tapping-term-ms = <280>;
-	    quick-tap-ms = <175>;
+	        quick-tap-ms = <175>;
             require-prior-idle-ms = <150>;
             bindings = <&kp>, <&kp>;
-	    hold-trigger-on-release;
+	        hold-trigger-on-release;
         };
- 
     };
 
     macros {
