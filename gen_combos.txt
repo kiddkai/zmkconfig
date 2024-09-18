@@ -1,0 +1,1750 @@
+combo_gen_object {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_O P_B P_J>;
+    bindings = <&m_gen_chord_object>;
+};
+combo_gen_return {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_R P_E P_U>;
+    bindings = <&m_gen_chord_return>;
+};
+combo_gen_function {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_F P_U P_C>;
+    bindings = <&m_gen_chord_function>;
+};
+combo_gen_const {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_C P_O P_S>;
+    bindings = <&m_gen_chord_const>;
+};
+combo_gen_import {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_I P_M P_R>;
+    bindings = <&m_gen_chord_import>;
+};
+combo_gen_include {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_I P_N P_C>;
+    bindings = <&m_gen_chord_include>;
+};
+combo_gen_interface {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_I P_N P_T>;
+    bindings = <&m_gen_chord_interface>;
+};
+combo_gen_struct {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_T P_U>;
+    bindings = <&m_gen_chord_struct>;
+};
+combo_gen_the {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_H P_E>;
+    bindings = <&m_gen_chord_the>;
+};
+combo_gen_and {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_A P_N P_D>;
+    bindings = <&m_gen_chord_and>;
+};
+combo_gen_that {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_H P_A>;
+    bindings = <&m_gen_chord_that>;
+};
+combo_gen_for {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_F P_O P_R>;
+    bindings = <&m_gen_chord_for>;
+};
+combo_gen_with {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_W P_I P_T>;
+    bindings = <&m_gen_chord_with>;
+};
+combo_gen_his {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_H P_I P_S>;
+    bindings = <&m_gen_chord_his>;
+};
+combo_gen_they {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_H P_E P_Y>;
+    bindings = <&m_gen_chord_they>;
+};
+combo_gen_one {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_O P_N P_E>;
+    bindings = <&m_gen_chord_one>;
+};
+combo_gen_this {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_H P_S>;
+    bindings = <&m_gen_chord_this>;
+};
+combo_gen_from {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_F P_R P_O P_M>;
+    bindings = <&m_gen_chord_from>;
+};
+combo_gen_hot {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_H P_O P_T>;
+    bindings = <&m_gen_chord_hot>;
+};
+combo_gen_but {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_B P_U P_T>;
+    bindings = <&m_gen_chord_but>;
+};
+combo_gen_some {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_O P_E>;
+    bindings = <&m_gen_chord_some>;
+};
+combo_gen_what {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_W P_H P_A>;
+    bindings = <&m_gen_chord_what>;
+};
+combo_gen_there {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_H P_E P_R>;
+    bindings = <&m_gen_chord_there>;
+};
+combo_gen_can {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_C P_A P_N>;
+    bindings = <&m_gen_chord_can>;
+};
+combo_gen_out {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_O P_U P_T>;
+    bindings = <&m_gen_chord_out>;
+};
+combo_gen_other {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_O P_T P_H P_E>;
+    bindings = <&m_gen_chord_other>;
+};
+combo_gen_your {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_Y P_O P_R>;
+    bindings = <&m_gen_chord_your>;
+};
+combo_gen_when {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_W P_H P_E>;
+    bindings = <&m_gen_chord_when>;
+};
+combo_gen_word {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_W P_O P_R>;
+    bindings = <&m_gen_chord_word>;
+};
+combo_gen_how {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_H P_O P_W>;
+    bindings = <&m_gen_chord_how>;
+};
+combo_gen_said {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_A P_I>;
+    bindings = <&m_gen_chord_said>;
+};
+combo_gen_each {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_E P_A P_H>;
+    bindings = <&m_gen_chord_each>;
+};
+combo_gen_she {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_H P_E>;
+    bindings = <&m_gen_chord_she>;
+};
+combo_gen_which {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_W P_H P_C>;
+    bindings = <&m_gen_chord_which>;
+};
+combo_gen_their {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_H P_E P_I>;
+    bindings = <&m_gen_chord_their>;
+};
+combo_gen_time {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_I P_E>;
+    bindings = <&m_gen_chord_time>;
+};
+combo_gen_way {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_W P_A P_Y>;
+    bindings = <&m_gen_chord_way>;
+};
+combo_gen_about {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_A P_B P_O>;
+    bindings = <&m_gen_chord_about>;
+};
+combo_gen_many {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_M P_A P_N>;
+    bindings = <&m_gen_chord_many>;
+};
+combo_gen_then {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_H P_E P_N>;
+    bindings = <&m_gen_chord_then>;
+};
+combo_gen_them {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_H P_E P_M>;
+    bindings = <&m_gen_chord_them>;
+};
+combo_gen_would {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_W P_O P_D>;
+    bindings = <&m_gen_chord_would>;
+};
+combo_gen_write {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_W P_R P_I>;
+    bindings = <&m_gen_chord_write>;
+};
+combo_gen_like {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_L P_I P_E>;
+    bindings = <&m_gen_chord_like>;
+};
+combo_gen_these {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_H P_E P_S>;
+    bindings = <&m_gen_chord_these>;
+};
+combo_gen_long {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_L P_O P_G>;
+    bindings = <&m_gen_chord_long>;
+};
+combo_gen_make {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_M P_A P_K>;
+    bindings = <&m_gen_chord_make>;
+};
+combo_gen_thing {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_H P_G>;
+    bindings = <&m_gen_chord_thing>;
+};
+combo_gen_two {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_W P_O>;
+    bindings = <&m_gen_chord_two>;
+};
+combo_gen_more {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_M P_O P_R>;
+    bindings = <&m_gen_chord_more>;
+};
+combo_gen_day {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_D P_A P_Y>;
+    bindings = <&m_gen_chord_day>;
+};
+combo_gen_could {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_C P_O P_D>;
+    bindings = <&m_gen_chord_could>;
+};
+combo_gen_come {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_C P_O P_E>;
+    bindings = <&m_gen_chord_come>;
+};
+combo_gen_did {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_D P_I>;
+    bindings = <&m_gen_chord_did>;
+};
+combo_gen_sound {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_O P_D>;
+    bindings = <&m_gen_chord_sound>;
+};
+combo_gen_most {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_M P_O P_S>;
+    bindings = <&m_gen_chord_most>;
+};
+combo_gen_number {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_N P_U P_B>;
+    bindings = <&m_gen_chord_number>;
+};
+combo_gen_know {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_K P_N P_W>;
+    bindings = <&m_gen_chord_know>;
+};
+combo_gen_than {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_H P_A P_N>;
+    bindings = <&m_gen_chord_than>;
+};
+combo_gen_call {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_C P_A P_L>;
+    bindings = <&m_gen_chord_call>;
+};
+combo_gen_first {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_F P_I P_R>;
+    bindings = <&m_gen_chord_first>;
+};
+combo_gen_people {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_P P_E P_O>;
+    bindings = <&m_gen_chord_people>;
+};
+combo_gen_may {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_M P_A P_Y>;
+    bindings = <&m_gen_chord_may>;
+};
+combo_gen_down {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_D P_O P_W P_N>;
+    bindings = <&m_gen_chord_down>;
+};
+combo_gen_side {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_I P_D>;
+    bindings = <&m_gen_chord_side>;
+};
+combo_gen_been {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_B P_E P_N>;
+    bindings = <&m_gen_chord_been>;
+};
+combo_gen_now {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_N P_O P_W>;
+    bindings = <&m_gen_chord_now>;
+};
+combo_gen_find {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_F P_I P_D>;
+    bindings = <&m_gen_chord_find>;
+};
+combo_gen_work {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_W P_O P_R P_K>;
+    bindings = <&m_gen_chord_work>;
+};
+combo_gen_take {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_A P_K>;
+    bindings = <&m_gen_chord_take>;
+};
+combo_gen_place {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_P P_L P_A>;
+    bindings = <&m_gen_chord_place>;
+};
+combo_gen_live {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_L P_I P_V>;
+    bindings = <&m_gen_chord_live>;
+};
+combo_gen_where {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_W P_H P_E P_R>;
+    bindings = <&m_gen_chord_where>;
+};
+combo_gen_back {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_B P_A P_K>;
+    bindings = <&m_gen_chord_back>;
+};
+combo_gen_little {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_L P_I P_T>;
+    bindings = <&m_gen_chord_little>;
+};
+combo_gen_round {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_R P_O P_D>;
+    bindings = <&m_gen_chord_round>;
+};
+combo_gen_came {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_C P_A P_M>;
+    bindings = <&m_gen_chord_came>;
+};
+combo_gen_show {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_H P_W>;
+    bindings = <&m_gen_chord_show>;
+};
+combo_gen_every {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_E P_V P_Y>;
+    bindings = <&m_gen_chord_every>;
+};
+combo_gen_good {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_G P_O P_D>;
+    bindings = <&m_gen_chord_good>;
+};
+combo_gen_give {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_G P_I P_V>;
+    bindings = <&m_gen_chord_give>;
+};
+combo_gen_our {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_O P_U P_R>;
+    bindings = <&m_gen_chord_our>;
+};
+combo_gen_under {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_U P_N P_D>;
+    bindings = <&m_gen_chord_under>;
+};
+combo_gen_name {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_N P_A P_M P_E>;
+    bindings = <&m_gen_chord_name>;
+};
+combo_gen_very {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_V P_E P_R P_Y>;
+    bindings = <&m_gen_chord_very>;
+};
+combo_gen_through {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_H P_R>;
+    bindings = <&m_gen_chord_through>;
+};
+combo_gen_just {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_J P_U P_S>;
+    bindings = <&m_gen_chord_just>;
+};
+combo_gen_much {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_M P_U P_C>;
+    bindings = <&m_gen_chord_much>;
+};
+combo_gen_say {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_A P_Y>;
+    bindings = <&m_gen_chord_say>;
+};
+combo_gen_help {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_H P_E P_L>;
+    bindings = <&m_gen_chord_help>;
+};
+combo_gen_low {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_L P_O P_W>;
+    bindings = <&m_gen_chord_low>;
+};
+combo_gen_line {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_L P_I P_N P_E>;
+    bindings = <&m_gen_chord_line>;
+};
+combo_gen_before {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_B P_E P_O>;
+    bindings = <&m_gen_chord_before>;
+};
+combo_gen_turn {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_U P_R>;
+    bindings = <&m_gen_chord_turn>;
+};
+combo_gen_cause {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_C P_A P_U>;
+    bindings = <&m_gen_chord_cause>;
+};
+combo_gen_same {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_A P_M>;
+    bindings = <&m_gen_chord_same>;
+};
+combo_gen_mean {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_M P_E P_N>;
+    bindings = <&m_gen_chord_mean>;
+};
+combo_gen_differ {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_D P_I P_F P_E>;
+    bindings = <&m_gen_chord_differ>;
+};
+combo_gen_move {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_M P_O P_V>;
+    bindings = <&m_gen_chord_move>;
+};
+combo_gen_right {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_R P_I P_G>;
+    bindings = <&m_gen_chord_right>;
+};
+combo_gen_old {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_O P_L P_D>;
+    bindings = <&m_gen_chord_old>;
+};
+combo_gen_does {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_D P_O P_E>;
+    bindings = <&m_gen_chord_does>;
+};
+combo_gen_tell {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_E P_L>;
+    bindings = <&m_gen_chord_tell>;
+};
+combo_gen_sentence {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_E P_N>;
+    bindings = <&m_gen_chord_sentence>;
+};
+combo_gen_want {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_W P_A P_N>;
+    bindings = <&m_gen_chord_want>;
+};
+combo_gen_air {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_A P_I P_R>;
+    bindings = <&m_gen_chord_air>;
+};
+combo_gen_well {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_W P_E P_L>;
+    bindings = <&m_gen_chord_well>;
+};
+combo_gen_also {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_A P_L P_S>;
+    bindings = <&m_gen_chord_also>;
+};
+combo_gen_play {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_P P_L P_A P_Y>;
+    bindings = <&m_gen_chord_play>;
+};
+combo_gen_small {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_M P_A P_L>;
+    bindings = <&m_gen_chord_small>;
+};
+combo_gen_end {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_E P_N P_D>;
+    bindings = <&m_gen_chord_end>;
+};
+combo_gen_put {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_P P_U P_T>;
+    bindings = <&m_gen_chord_put>;
+};
+combo_gen_home {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_H P_O P_E>;
+    bindings = <&m_gen_chord_home>;
+};
+combo_gen_hand {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_H P_A P_N>;
+    bindings = <&m_gen_chord_hand>;
+};
+combo_gen_port {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_P P_O P_R>;
+    bindings = <&m_gen_chord_port>;
+};
+combo_gen_spell {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_P P_E>;
+    bindings = <&m_gen_chord_spell>;
+};
+combo_gen_even {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_E P_V P_N>;
+    bindings = <&m_gen_chord_even>;
+};
+combo_gen_land {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_L P_A P_N>;
+    bindings = <&m_gen_chord_land>;
+};
+combo_gen_must {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_M P_U P_S>;
+    bindings = <&m_gen_chord_must>;
+};
+combo_gen_big {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_B P_I P_G>;
+    bindings = <&m_gen_chord_big>;
+};
+combo_gen_high {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_H P_I P_G>;
+    bindings = <&m_gen_chord_high>;
+};
+combo_gen_such {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_U P_C>;
+    bindings = <&m_gen_chord_such>;
+};
+combo_gen_follow {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_F P_O P_W>;
+    bindings = <&m_gen_chord_follow>;
+};
+combo_gen_ask {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_A P_S P_K>;
+    bindings = <&m_gen_chord_ask>;
+};
+combo_gen_change {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_C P_H P_A>;
+    bindings = <&m_gen_chord_change>;
+};
+combo_gen_went {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_W P_E P_N>;
+    bindings = <&m_gen_chord_went>;
+};
+combo_gen_light {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_L P_I P_G>;
+    bindings = <&m_gen_chord_light>;
+};
+combo_gen_kind {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_K P_I P_D>;
+    bindings = <&m_gen_chord_kind>;
+};
+combo_gen_house {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_H P_O P_S>;
+    bindings = <&m_gen_chord_house>;
+};
+combo_gen_picture {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_P P_I P_C>;
+    bindings = <&m_gen_chord_picture>;
+};
+combo_gen_try {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_R P_Y>;
+    bindings = <&m_gen_chord_try>;
+};
+combo_gen_again {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_A P_G P_I>;
+    bindings = <&m_gen_chord_again>;
+};
+combo_gen_animal {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_A P_N P_I>;
+    bindings = <&m_gen_chord_animal>;
+};
+combo_gen_point {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_P P_O P_T>;
+    bindings = <&m_gen_chord_point>;
+};
+combo_gen_mother {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_M P_O P_T>;
+    bindings = <&m_gen_chord_mother>;
+};
+combo_gen_world {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_W P_O P_R P_L>;
+    bindings = <&m_gen_chord_world>;
+};
+combo_gen_build {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_B P_U P_D>;
+    bindings = <&m_gen_chord_build>;
+};
+combo_gen_self {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_E P_L>;
+    bindings = <&m_gen_chord_self>;
+};
+combo_gen_earth {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_E P_A P_R P_H>;
+    bindings = <&m_gen_chord_earth>;
+};
+combo_gen_father {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_F P_A P_H>;
+    bindings = <&m_gen_chord_father>;
+};
+combo_gen_stand {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_T P_N>;
+    bindings = <&m_gen_chord_stand>;
+};
+combo_gen_should {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_H P_D>;
+    bindings = <&m_gen_chord_should>;
+};
+combo_gen_found {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_F P_O P_D>;
+    bindings = <&m_gen_chord_found>;
+};
+combo_gen_answer {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_A P_N P_S>;
+    bindings = <&m_gen_chord_answer>;
+};
+combo_gen_school {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_C P_H>;
+    bindings = <&m_gen_chord_school>;
+};
+combo_gen_grow {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_G P_R P_O>;
+    bindings = <&m_gen_chord_grow>;
+};
+combo_gen_study {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_T P_U P_Y>;
+    bindings = <&m_gen_chord_study>;
+};
+combo_gen_still {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_T P_I>;
+    bindings = <&m_gen_chord_still>;
+};
+combo_gen_learn {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_L P_E P_N>;
+    bindings = <&m_gen_chord_learn>;
+};
+combo_gen_plant {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_P P_L P_A P_N>;
+    bindings = <&m_gen_chord_plant>;
+};
+combo_gen_cover {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_C P_O P_V>;
+    bindings = <&m_gen_chord_cover>;
+};
+combo_gen_four {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_F P_O P_U P_R>;
+    bindings = <&m_gen_chord_four>;
+};
+combo_gen_thought {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_H P_O P_G>;
+    bindings = <&m_gen_chord_thought>;
+};
+combo_gen_keep {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_K P_E P_P>;
+    bindings = <&m_gen_chord_keep>;
+};
+combo_gen_eye {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_E P_Y>;
+    bindings = <&m_gen_chord_eye>;
+};
+combo_gen_between {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_B P_E P_T P_N>;
+    bindings = <&m_gen_chord_between>;
+};
+combo_gen_city {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_C P_I P_T>;
+    bindings = <&m_gen_chord_city>;
+};
+combo_gen_cross {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_C P_R P_O>;
+    bindings = <&m_gen_chord_cross>;
+};
+combo_gen_since {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_I P_C>;
+    bindings = <&m_gen_chord_since>;
+};
+combo_gen_might {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_M P_I P_G>;
+    bindings = <&m_gen_chord_might>;
+};
+combo_gen_story {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_T P_O>;
+    bindings = <&m_gen_chord_story>;
+};
+combo_gen_don't {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_D P_O P_T>;
+    bindings = <&m_gen_chord_don't>;
+};
+combo_gen_while {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_W P_H P_I P_E>;
+    bindings = <&m_gen_chord_while>;
+};
+combo_gen_close {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_C P_L P_S>;
+    bindings = <&m_gen_chord_close>;
+};
+combo_gen_night {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_N P_I P_G>;
+    bindings = <&m_gen_chord_night>;
+};
+combo_gen_real {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_R P_E P_L>;
+    bindings = <&m_gen_chord_real>;
+};
+combo_gen_life {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_L P_I P_F>;
+    bindings = <&m_gen_chord_life>;
+};
+combo_gen_stop {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_T P_O P_P>;
+    bindings = <&m_gen_chord_stop>;
+};
+combo_gen_open {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_O P_P P_E P_N>;
+    bindings = <&m_gen_chord_open>;
+};
+combo_gen_seem {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_E P_M>;
+    bindings = <&m_gen_chord_seem>;
+};
+combo_gen_together {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_O P_G>;
+    bindings = <&m_gen_chord_together>;
+};
+combo_gen_white {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_W P_H P_T>;
+    bindings = <&m_gen_chord_white>;
+};
+combo_gen_children {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_C P_H P_D>;
+    bindings = <&m_gen_chord_children>;
+};
+combo_gen_begin {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_B P_E P_I>;
+    bindings = <&m_gen_chord_begin>;
+};
+combo_gen_walk {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_W P_A P_L>;
+    bindings = <&m_gen_chord_walk>;
+};
+combo_gen_example {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_E P_X P_M>;
+    bindings = <&m_gen_chord_example>;
+};
+combo_gen_paper {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_P P_A P_E>;
+    bindings = <&m_gen_chord_paper>;
+};
+combo_gen_often {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_O P_F P_N>;
+    bindings = <&m_gen_chord_often>;
+};
+combo_gen_always {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_A P_L P_W P_Y>;
+    bindings = <&m_gen_chord_always>;
+};
+combo_gen_music {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_M P_U P_S P_I>;
+    bindings = <&m_gen_chord_music>;
+};
+combo_gen_those {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_H P_O P_S>;
+    bindings = <&m_gen_chord_those>;
+};
+combo_gen_both {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_B P_O P_T>;
+    bindings = <&m_gen_chord_both>;
+};
+combo_gen_mark {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_M P_A P_R P_K>;
+    bindings = <&m_gen_chord_mark>;
+};
+combo_gen_until {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_U P_N P_T>;
+    bindings = <&m_gen_chord_until>;
+};
+combo_gen_mile {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_M P_I P_E>;
+    bindings = <&m_gen_chord_mile>;
+};
+combo_gen_river {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_R P_I P_V>;
+    bindings = <&m_gen_chord_river>;
+};
+combo_gen_second {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_E P_O P_N>;
+    bindings = <&m_gen_chord_second>;
+};
+combo_gen_group {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_G P_R P_O P_U>;
+    bindings = <&m_gen_chord_group>;
+};
+combo_gen_carry {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_C P_A P_Y>;
+    bindings = <&m_gen_chord_carry>;
+};
+combo_gen_rain {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_R P_A P_I P_N>;
+    bindings = <&m_gen_chord_rain>;
+};
+combo_gen_friend {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_F P_R P_I P_N>;
+    bindings = <&m_gen_chord_friend>;
+};
+combo_gen_began {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_B P_E P_G P_N>;
+    bindings = <&m_gen_chord_began>;
+};
+combo_gen_fish {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_F P_I P_S>;
+    bindings = <&m_gen_chord_fish>;
+};
+combo_gen_mountain {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_M P_O P_U P_T>;
+    bindings = <&m_gen_chord_mountain>;
+};
+combo_gen_north {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_N P_O P_R>;
+    bindings = <&m_gen_chord_north>;
+};
+combo_gen_once {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_O P_N P_C>;
+    bindings = <&m_gen_chord_once>;
+};
+combo_gen_horse {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_H P_O P_R>;
+    bindings = <&m_gen_chord_horse>;
+};
+combo_gen_cut {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_C P_U P_T>;
+    bindings = <&m_gen_chord_cut>;
+};
+combo_gen_sure {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_U P_R>;
+    bindings = <&m_gen_chord_sure>;
+};
+combo_gen_watch {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_W P_A P_T P_H>;
+    bindings = <&m_gen_chord_watch>;
+};
+combo_gen_color {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_C P_O P_L P_R>;
+    bindings = <&m_gen_chord_color>;
+};
+combo_gen_main {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_M P_A P_I>;
+    bindings = <&m_gen_chord_main>;
+};
+combo_gen_enough {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_E P_N P_G>;
+    bindings = <&m_gen_chord_enough>;
+};
+combo_gen_plain {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_P P_L P_A P_I>;
+    bindings = <&m_gen_chord_plain>;
+};
+combo_gen_girl {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_G P_I P_R P_L>;
+    bindings = <&m_gen_chord_girl>;
+};
+combo_gen_usual {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_U P_S P_L>;
+    bindings = <&m_gen_chord_usual>;
+};
+combo_gen_young {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_Y P_O P_G>;
+    bindings = <&m_gen_chord_young>;
+};
+combo_gen_ready {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_R P_E P_Y>;
+    bindings = <&m_gen_chord_ready>;
+};
+combo_gen_above {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_A P_B P_O P_V>;
+    bindings = <&m_gen_chord_above>;
+};
+combo_gen_list {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_L P_I P_S>;
+    bindings = <&m_gen_chord_list>;
+};
+combo_gen_though {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_H P_O P_U P_G>;
+    bindings = <&m_gen_chord_though>;
+};
+combo_gen_feel {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_F P_E P_L>;
+    bindings = <&m_gen_chord_feel>;
+};
+combo_gen_talk {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_A P_L>;
+    bindings = <&m_gen_chord_talk>;
+};
+combo_gen_bird {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_B P_I P_R>;
+    bindings = <&m_gen_chord_bird>;
+};
+combo_gen_body {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_B P_O P_D>;
+    bindings = <&m_gen_chord_body>;
+};
+combo_gen_family {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_F P_A P_M>;
+    bindings = <&m_gen_chord_family>;
+};
+combo_gen_direct {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_D P_I P_R>;
+    bindings = <&m_gen_chord_direct>;
+};
+combo_gen_pose {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_P P_O P_S>;
+    bindings = <&m_gen_chord_pose>;
+};
+combo_gen_song {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_O P_G>;
+    bindings = <&m_gen_chord_song>;
+};
+combo_gen_measure {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_M P_E P_U>;
+    bindings = <&m_gen_chord_measure>;
+};
+combo_gen_product {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_P P_R P_O P_U>;
+    bindings = <&m_gen_chord_product>;
+};
+combo_gen_black {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_B P_L P_A>;
+    bindings = <&m_gen_chord_black>;
+};
+combo_gen_short {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_H P_R>;
+    bindings = <&m_gen_chord_short>;
+};
+combo_gen_numeral {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_N P_U P_E>;
+    bindings = <&m_gen_chord_numeral>;
+};
+combo_gen_class {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_C P_L P_A P_S>;
+    bindings = <&m_gen_chord_class>;
+};
+combo_gen_wind {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_W P_I P_D>;
+    bindings = <&m_gen_chord_wind>;
+};
+combo_gen_question {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_Q P_U P_E>;
+    bindings = <&m_gen_chord_question>;
+};
+combo_gen_happen {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_H P_A P_P>;
+    bindings = <&m_gen_chord_happen>;
+};
+combo_gen_complete {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_C P_O P_M P_E>;
+    bindings = <&m_gen_chord_complete>;
+};
+combo_gen_half {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_H P_A P_L>;
+    bindings = <&m_gen_chord_half>;
+};
+combo_gen_rock {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_R P_O P_C P_K>;
+    bindings = <&m_gen_chord_rock>;
+};
+combo_gen_fire {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_F P_I P_R P_E>;
+    bindings = <&m_gen_chord_fire>;
+};
+combo_gen_south {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_O P_U P_T>;
+    bindings = <&m_gen_chord_south>;
+};
+combo_gen_problem {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_P P_R P_O P_L>;
+    bindings = <&m_gen_chord_problem>;
+};
+combo_gen_piece {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_P P_I P_E>;
+    bindings = <&m_gen_chord_piece>;
+};
+combo_gen_told {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_O P_L P_D>;
+    bindings = <&m_gen_chord_told>;
+};
+combo_gen_knew {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_K P_N P_E>;
+    bindings = <&m_gen_chord_knew>;
+};
+combo_gen_farm {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_F P_A P_R P_M>;
+    bindings = <&m_gen_chord_farm>;
+};
+combo_gen_whole {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_W P_H P_O P_E>;
+    bindings = <&m_gen_chord_whole>;
+};
+combo_gen_king {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_K P_I P_G>;
+    bindings = <&m_gen_chord_king>;
+};
+combo_gen_size {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_I P_Z>;
+    bindings = <&m_gen_chord_size>;
+};
+combo_gen_hour {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_H P_O P_U P_R>;
+    bindings = <&m_gen_chord_hour>;
+};
+combo_gen_during {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_D P_U P_R>;
+    bindings = <&m_gen_chord_during>;
+};
+combo_gen_hundred {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_H P_U P_D>;
+    bindings = <&m_gen_chord_hundred>;
+};
+combo_gen_remember {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_R P_E P_M>;
+    bindings = <&m_gen_chord_remember>;
+};
+combo_gen_step {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_T P_P>;
+    bindings = <&m_gen_chord_step>;
+};
+combo_gen_early {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_E P_A P_L>;
+    bindings = <&m_gen_chord_early>;
+};
+combo_gen_hold {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_H P_O P_D>;
+    bindings = <&m_gen_chord_hold>;
+};
+combo_gen_ground {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_G P_R P_O P_U P_D>;
+    bindings = <&m_gen_chord_ground>;
+};
+combo_gen_interest {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_I P_N P_T P_E>;
+    bindings = <&m_gen_chord_interest>;
+};
+combo_gen_reach {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_R P_E P_H>;
+    bindings = <&m_gen_chord_reach>;
+};
+combo_gen_five {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_F P_I P_V>;
+    bindings = <&m_gen_chord_five>;
+};
+combo_gen_sing {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_I P_G>;
+    bindings = <&m_gen_chord_sing>;
+};
+combo_gen_listen {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_L P_I P_S P_N>;
+    bindings = <&m_gen_chord_listen>;
+};
+combo_gen_six {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_I P_X>;
+    bindings = <&m_gen_chord_six>;
+};
+combo_gen_table {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_A P_B P_L>;
+    bindings = <&m_gen_chord_table>;
+};
+combo_gen_travel {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_R P_L>;
+    bindings = <&m_gen_chord_travel>;
+};
+combo_gen_morning {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_M P_O P_R P_N>;
+    bindings = <&m_gen_chord_morning>;
+};
+combo_gen_ten {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_E P_N>;
+    bindings = <&m_gen_chord_ten>;
+};
+combo_gen_simple {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_I P_E>;
+    bindings = <&m_gen_chord_simple>;
+};
+combo_gen_several {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_E P_V P_L>;
+    bindings = <&m_gen_chord_several>;
+};
+combo_gen_vowel {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_V P_O P_W>;
+    bindings = <&m_gen_chord_vowel>;
+};
+combo_gen_toward {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_O P_W P_A>;
+    bindings = <&m_gen_chord_toward>;
+};
+combo_gen_lay {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_L P_A P_Y>;
+    bindings = <&m_gen_chord_lay>;
+};
+combo_gen_against {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_A P_G P_I P_N>;
+    bindings = <&m_gen_chord_against>;
+};
+combo_gen_pattern {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_P P_A P_N>;
+    bindings = <&m_gen_chord_pattern>;
+};
+combo_gen_slow {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_L P_W>;
+    bindings = <&m_gen_chord_slow>;
+};
+combo_gen_center {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_C P_E P_N>;
+    bindings = <&m_gen_chord_center>;
+};
+combo_gen_love {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_L P_O P_V>;
+    bindings = <&m_gen_chord_love>;
+};
+combo_gen_person {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_P P_E P_R P_O P_N>;
+    bindings = <&m_gen_chord_person>;
+};
+combo_gen_money {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_M P_O P_E>;
+    bindings = <&m_gen_chord_money>;
+};
+combo_gen_road {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_R P_O P_A>;
+    bindings = <&m_gen_chord_road>;
+};
+combo_gen_map {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_M P_A P_P>;
+    bindings = <&m_gen_chord_map>;
+};
+combo_gen_science {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_C P_I P_N>;
+    bindings = <&m_gen_chord_science>;
+};
+combo_gen_rule {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_R P_U P_L P_E>;
+    bindings = <&m_gen_chord_rule>;
+};
+combo_gen_govern {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_G P_O P_V>;
+    bindings = <&m_gen_chord_govern>;
+};
+combo_gen_cold {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_C P_O P_L P_D>;
+    bindings = <&m_gen_chord_cold>;
+};
+combo_gen_notice {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_N P_O P_T>;
+    bindings = <&m_gen_chord_notice>;
+};
+combo_gen_voice {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_V P_O P_I P_C>;
+    bindings = <&m_gen_chord_voice>;
+};
+combo_gen_fall {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_F P_A P_L>;
+    bindings = <&m_gen_chord_fall>;
+};
+combo_gen_power {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_P P_O P_W>;
+    bindings = <&m_gen_chord_power>;
+};
+combo_gen_town {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_O P_W P_N>;
+    bindings = <&m_gen_chord_town>;
+};
+combo_gen_fine {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_F P_I P_E>;
+    bindings = <&m_gen_chord_fine>;
+};
+combo_gen_certain {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_C P_E P_I>;
+    bindings = <&m_gen_chord_certain>;
+};
+combo_gen_unit {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_U P_N P_I P_T>;
+    bindings = <&m_gen_chord_unit>;
+};
+combo_gen_cry {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_C P_R P_Y>;
+    bindings = <&m_gen_chord_cry>;
+};
+combo_gen_dark {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_D P_A P_K>;
+    bindings = <&m_gen_chord_dark>;
+};
+combo_gen_machine {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_M P_A P_H>;
+    bindings = <&m_gen_chord_machine>;
+};
+combo_gen_note {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_N P_O P_T P_E>;
+    bindings = <&m_gen_chord_note>;
+};
+combo_gen_wait {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_W P_A P_I>;
+    bindings = <&m_gen_chord_wait>;
+};
+combo_gen_figure {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_F P_I P_G>;
+    bindings = <&m_gen_chord_figure>;
+};
+combo_gen_box {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_B P_O P_X>;
+    bindings = <&m_gen_chord_box>;
+};
+combo_gen_field {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_F P_I P_E P_L>;
+    bindings = <&m_gen_chord_field>;
+};
+combo_gen_correct {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_C P_O P_R P_E>;
+    bindings = <&m_gen_chord_correct>;
+};
+combo_gen_able {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_A P_B P_L P_E>;
+    bindings = <&m_gen_chord_able>;
+};
+combo_gen_pound {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_P P_O P_D>;
+    bindings = <&m_gen_chord_pound>;
+};
+combo_gen_done {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_D P_O P_N P_E>;
+    bindings = <&m_gen_chord_done>;
+};
+combo_gen_beauty {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_B P_E P_U>;
+    bindings = <&m_gen_chord_beauty>;
+};
+combo_gen_drive {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_D P_R P_I P_V>;
+    bindings = <&m_gen_chord_drive>;
+};
+combo_gen_stood {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_T P_O P_D>;
+    bindings = <&m_gen_chord_stood>;
+};
+combo_gen_contain {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_C P_O P_T>;
+    bindings = <&m_gen_chord_contain>;
+};
+combo_gen_front {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_F P_R P_O P_N>;
+    bindings = <&m_gen_chord_front>;
+};
+combo_gen_teach {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_E P_A P_H>;
+    bindings = <&m_gen_chord_teach>;
+};
+combo_gen_week {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_W P_E P_K>;
+    bindings = <&m_gen_chord_week>;
+};
+combo_gen_final {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_F P_I P_A>;
+    bindings = <&m_gen_chord_final>;
+};
+combo_gen_green {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_G P_R P_N>;
+    bindings = <&m_gen_chord_green>;
+};
+combo_gen_quick {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_Q P_U P_C>;
+    bindings = <&m_gen_chord_quick>;
+};
+combo_gen_develop {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_D P_E P_L>;
+    bindings = <&m_gen_chord_develop>;
+};
+combo_gen_sleep {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_L P_E P_P>;
+    bindings = <&m_gen_chord_sleep>;
+};
+combo_gen_warm {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_W P_A P_M>;
+    bindings = <&m_gen_chord_warm>;
+};
+combo_gen_minute {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_M P_I P_T>;
+    bindings = <&m_gen_chord_minute>;
+};
+combo_gen_strong {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_T P_O P_N>;
+    bindings = <&m_gen_chord_strong>;
+};
+combo_gen_special {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_P P_E P_I>;
+    bindings = <&m_gen_chord_special>;
+};
+combo_gen_mind {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_M P_I P_D>;
+    bindings = <&m_gen_chord_mind>;
+};
+combo_gen_behind {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_B P_E P_H>;
+    bindings = <&m_gen_chord_behind>;
+};
+combo_gen_clear {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_C P_L P_E>;
+    bindings = <&m_gen_chord_clear>;
+};
+combo_gen_tail {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_A P_I>;
+    bindings = <&m_gen_chord_tail>;
+};
+combo_gen_produce {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_P P_R P_O P_D P_U>;
+    bindings = <&m_gen_chord_produce>;
+};
+combo_gen_lot {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_L P_O P_T>;
+    bindings = <&m_gen_chord_lot>;
+};
+combo_gen_nothing {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_N P_O P_T P_H>;
+    bindings = <&m_gen_chord_nothing>;
+};
+combo_gen_course {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_C P_O P_U P_R>;
+    bindings = <&m_gen_chord_course>;
+};
+combo_gen_stay {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_T P_Y>;
+    bindings = <&m_gen_chord_stay>;
+};
+combo_gen_wheel {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_W P_H P_E P_L>;
+    bindings = <&m_gen_chord_wheel>;
+};
+combo_gen_force {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_F P_O P_R P_C>;
+    bindings = <&m_gen_chord_force>;
+};
+combo_gen_blue {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_B P_L P_E>;
+    bindings = <&m_gen_chord_blue>;
+};
+combo_gen_object {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_O P_B P_J P_E>;
+    bindings = <&m_gen_chord_object>;
+};
+combo_gen_decide {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_D P_E P_I>;
+    bindings = <&m_gen_chord_decide>;
+};
+combo_gen_surface {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_U P_R P_F>;
+    bindings = <&m_gen_chord_surface>;
+};
+combo_gen_deep {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_D P_E P_P>;
+    bindings = <&m_gen_chord_deep>;
+};
+combo_gen_foot {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_F P_O P_T>;
+    bindings = <&m_gen_chord_foot>;
+};
+combo_gen_busy {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_B P_U P_S>;
+    bindings = <&m_gen_chord_busy>;
+};
+combo_gen_record {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_R P_E P_O>;
+    bindings = <&m_gen_chord_record>;
+};
+combo_gen_possible {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_P P_O P_S P_I>;
+    bindings = <&m_gen_chord_possible>;
+};
+combo_gen_plane {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_P P_L P_A P_N P_E>;
+    bindings = <&m_gen_chord_plane>;
+};
+combo_gen_dry {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_D P_R P_Y>;
+    bindings = <&m_gen_chord_dry>;
+};
+combo_gen_wonder {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_W P_O P_N P_D P_E>;
+    bindings = <&m_gen_chord_wonder>;
+};
+combo_gen_thousand {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_T P_H P_O P_S P_A>;
+    bindings = <&m_gen_chord_thousand>;
+};
+combo_gen_ago {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_A P_G P_O>;
+    bindings = <&m_gen_chord_ago>;
+};
+combo_gen_ran {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_R P_A P_N>;
+    bindings = <&m_gen_chord_ran>;
+};
+combo_gen_check {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_C P_H P_E>;
+    bindings = <&m_gen_chord_check>;
+};
+combo_gen_game {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_G P_A P_M>;
+    bindings = <&m_gen_chord_game>;
+};
+combo_gen_shape {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_H P_A>;
+    bindings = <&m_gen_chord_shape>;
+};
+combo_gen_miss {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_M P_I P_S>;
+    bindings = <&m_gen_chord_miss>;
+};
+combo_gen_brought {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_B P_R P_O>;
+    bindings = <&m_gen_chord_brought>;
+};
+combo_gen_snow {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_S P_N P_W>;
+    bindings = <&m_gen_chord_snow>;
+};
+combo_gen_bring {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_B P_R P_I P_N>;
+    bindings = <&m_gen_chord_bring>;
+};
+combo_gen_perhaps {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_P P_E P_H>;
+    bindings = <&m_gen_chord_perhaps>;
+};
+combo_gen_weight {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_W P_E P_I>;
+    bindings = <&m_gen_chord_weight>;
+};
+combo_gen_language {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_L P_A P_N P_U>;
+    bindings = <&m_gen_chord_language>;
+};
+combo_gen_among {
+    timeout-ms = <COMBO_TIMEOUT>;
+    key-positions = <P_A P_M P_O P_G>;
+    bindings = <&m_gen_chord_among>;
+};
