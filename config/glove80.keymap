@@ -188,11 +188,6 @@
                   <&bt BT_SEL 3>;
         };
 
-m_gen_chord_object: m_gen_chord_object {
-    compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
-    bindings = <&kp O>, <&kp B>, <&kp J>, <&kp E>, <&kp C>, <&kp T>;
-};
 m_gen_chord_return: m_gen_chord_return {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
@@ -1944,12 +1939,7 @@ m_gen_chord_among: m_gen_chord_among {
     combos {
         //
         compatible = "zmk,combos";
-        
-combo_gen_object {
-    timeout-ms = <COMBO_TIMEOUT>;
-    key-positions = <P_O P_B P_J>;
-    bindings = <&m_gen_chord_object>;
-};
+
 combo_gen_return {
     timeout-ms = <COMBO_TIMEOUT>;
     key-positions = <P_R P_E P_U>;
