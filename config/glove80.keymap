@@ -81,13 +81,19 @@
 #define MACRO_WAIT 0
 
 / {
+    macros {
+        zed_em_kay: zed_em_kay {
+            compatible = "zmk,behavior-macro";
+            bindings = <&kp Z &kp M &kp K>;
+        };
+    };
     combos {
         //
         compatible = "zmk,combod";
         combo_m_the {
             timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <P_T P_H>;
-            bindings = <&kp T &kp H &kp E>;
+            key-positions = <P_T P_E>;
+            bindings = <&zed_em_kay>;
         };
         // combo_lcmd {
         //     timeout-ms = <50>;
