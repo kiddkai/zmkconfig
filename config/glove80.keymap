@@ -160,6 +160,7 @@
 
         zed_em_kay: zed_em_kay {
             compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
             bindings = <&kp Z>;
         };
     };
