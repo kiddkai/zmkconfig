@@ -64,35 +64,49 @@
 #define P_3 13
 #define P_4 14
 #define P_5 15
+#define P_6 16
+#define P_7 17
+#define P_8 18
+#define P_9 19
+#define P_0 20
+#define P_MINUS 21
+#define P_R2C0 22
+#define P_Q 23
+#define P_W 24
+#define P_E 25
+#define P_R 26
+#define P_T 27
+#define P_Y 28
+#define P_U 29
+#define P_I 30
+#define P_O 31
+#define P_P 32
+#define P_BACKSLASH 33
+#define P_ESC 34
+#define P_A 35
+#define P_S 36
+#define P_D 37
+#define P_F 38
+#define P_G 39
+#define P_H 40
+#define P_J 41
+#define P_K 42
+#define P_L 43
+#define P_SEMI_COL 44
+#define P_S_QUOTE 45
+#define P_WAVE 46
+#define P_Z 47
+#define P_X 48
+#define P_C 49
+#define P_V 50
+#define P_B 51
+#define P_N 52
+#define P_M 53
+#define P_COMMA 54
+#define P_DOT 55
+#define P_SLASH 56
 
-#define P_A 43
-#define P_B 61
-#define P_C 59
-#define P_D 45
-#define P_E 31
-#define P_F 46
-#define P_G 47
-#define P_H 48
-#define P_I 36
-#define P_J 49
-#define P_K 50
-#define P_L 51
-#define P_M 69
-#define P_N 68
-#define P_O 37
-#define P_P 38
-#define P_Q 29
-#define P_R 32
-#define P_S 44
-#define P_T 33
-#define P_U 35
-#define P_V 60
-#define P_W 30
-#define P_X 58
-#define P_Y 34
-#define P_Z 57
-
-#define COMBO_TIMEOUT 200
+#define COMBO_TIMEOUT 150
 #define MACRO_TAP 10
 #define MACRO_WAIT 0
 
@@ -174,10 +188,10 @@
                   <&bt BT_SEL 3>;
         };
 
-        zed_em_kay: zed_em_kay {
+        m_the: m_the {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp Z>, <&kp Z>;
+            bindings = <&kp T>, <&kp H>, <&kp E>;
         };
     };
 
@@ -186,7 +200,7 @@
         compatible = "zmk,combos";
         combo_m_the {
             timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <P_1 P_2>;
+            key-positions = <P_T P_E>;
             bindings = <&zed_em_kay>;
         };
         // combo_lcmd {
