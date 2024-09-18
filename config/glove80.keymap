@@ -114,11 +114,6 @@
     };
 
     macros {
-        zed_em_kay: zed_em_kay {
-            compatible = "zmk,behavior-macro";
-            bindings = <&kp Z &kp M &kp K>;
-        };
-
         rgb_ug_status_macro: rgb_ug_status_macro_0 {
             label = "RGB_UG_STATUS";
             compatible = "zmk,behavior-macro";
@@ -161,6 +156,11 @@
             bindings
                 = <&out OUT_BLE>,
                   <&bt BT_SEL 3>;
+        };
+
+        zed_em_kay: zed_em_kay {
+            compatible = "zmk,behavior-macro";
+            bindings = <&kp Z>;
         };
     };
 
