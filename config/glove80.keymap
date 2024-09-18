@@ -48,6 +48,22 @@
 * index=(row×NUMBER_OF_COLUMNS)+column
 * t = RC(2, 5) = 2 * 14 + 5
 */
+#define P_F1 0
+#define P_F2 1
+#define P_F3 2
+#define P_F4 3
+#define P_F5 4
+#define P_F6 5
+#define P_F7 6
+#define P_F8 7
+#define P_F9 8
+#define P_F10 9
+#define P_EQ 10
+#define P_1 11
+#define P_2 12
+#define P_3 13
+#define P_4 14
+#define P_5 15
 
 #define P_A 43
 #define P_B 61
@@ -170,7 +186,7 @@
         compatible = "zmk,combos";
         combo_m_the {
             timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <0 1>;
+            key-positions = <P_1 P_2>;
             bindings = <&zed_em_kay>;
         };
         // combo_lcmd {
