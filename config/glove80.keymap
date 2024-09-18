@@ -201,7 +201,7 @@
         combo_m_the {
             timeout-ms = <COMBO_TIMEOUT>;
             key-positions = <P_T P_E>;
-            bindings = <&zed_em_kay>;
+            bindings = <&m_the>;
         };
         // combo_lcmd {
         //     timeout-ms = <50>;
