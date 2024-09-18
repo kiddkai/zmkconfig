@@ -170,7 +170,7 @@
         compatible = "zmk,combos";
         combo_m_the {
             timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <P_T P_E>;
+            key-positions = <0 1>;
             bindings = <&zed_em_kay>;
         };
         // combo_lcmd {
