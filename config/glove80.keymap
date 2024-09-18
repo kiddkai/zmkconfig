@@ -993,11 +993,6 @@ m_gen_chord_story: m_gen_chord_story {
     #binding-cells = <0>;
     bindings = <&kp S>, <&kp T>, <&kp O>, <&kp R>, <&kp Y>;
 };
-m_gen_chord_don't: m_gen_chord_don't {
-    compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
-    bindings = <&kp D>, <&kp O>, <&kp N>, <&kp '>, <&kp T>;
-};
 m_gen_chord_while: m_gen_chord_while {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
@@ -2754,11 +2749,6 @@ combo_gen_story {
     timeout-ms = <COMBO_TIMEOUT>;
     key-positions = <P_S P_T P_O>;
     bindings = <&m_gen_chord_story>;
-};
-combo_gen_don't {
-    timeout-ms = <COMBO_TIMEOUT>;
-    key-positions = <P_D P_O P_T>;
-    bindings = <&m_gen_chord_don't>;
 };
 combo_gen_while {
     timeout-ms = <COMBO_TIMEOUT>;
