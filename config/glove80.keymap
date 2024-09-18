@@ -81,26 +81,6 @@
 #define MACRO_WAIT 0
 
 / {
-    macros {
-        zed_em_kay: zed_em_kay {
-            compatible = "zmk,behavior-macro";
-            bindings = <&kp Z &kp M &kp K>;
-        };
-    };
-    combos {
-        //
-        compatible = "zmk,combod";
-        combo_m_the {
-            timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <P_T P_E>;
-            bindings = <&zed_em_kay>;
-        };
-        // combo_lcmd {
-        //     timeout-ms = <50>;
-        //     key-positions = <29 43>;
-        //     bindings = <&kp LGUI>;
-        // };
-    };
     behaviors {
         // For the "layer" key, it'd nice to be able to use it as either a shift or a toggle.
         // Configure it as a tap dance, so the first tap (or hold) is a &mo and the second tap is a &to
@@ -134,6 +114,11 @@
     };
 
     macros {
+        zed_em_kay: zed_em_kay {
+            compatible = "zmk,behavior-macro";
+            bindings = <&kp Z &kp M &kp K>;
+        };
+
         rgb_ug_status_macro: rgb_ug_status_macro_0 {
             label = "RGB_UG_STATUS";
             compatible = "zmk,behavior-macro";
@@ -177,6 +162,21 @@
                 = <&out OUT_BLE>,
                   <&bt BT_SEL 3>;
         };
+    };
+
+    combos {
+        //
+        compatible = "zmk,combod";
+        combo_m_the {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <P_T P_E>;
+            bindings = <&zed_em_kay>;
+        };
+        // combo_lcmd {
+        //     timeout-ms = <50>;
+        //     key-positions = <29 43>;
+        //     bindings = <&kp LGUI>;
+        // };
     };
 
     keymap {
