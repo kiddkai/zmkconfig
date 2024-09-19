@@ -188,6 +188,7 @@
                   <&bt BT_SEL 3>;
         };
 
+// GEN_MACRO_START
 m_gen_chord_the: m_gen_chord_the {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
@@ -258,6 +259,7 @@ m_gen_chord_you: m_gen_chord_you {
     #binding-cells = <0>;
     bindings = <&kp Y>, <&kp O>, <&kp U>;
 };
+// GEN_MACRO_END
 
     };
 
@@ -265,6 +267,14 @@ m_gen_chord_you: m_gen_chord_you {
         //
         compatible = "zmk,combos";
 
+        combo_gen_the {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <P_F P_J>;
+            bindings = <&caps_word>;
+        };
+
+
+// == GEN_COMBO_START
 combo_gen_the {
     timeout-ms = <COMBO_TIMEOUT>;
     key-positions = <P_T P_H P_E>;
@@ -335,6 +345,7 @@ combo_gen_you {
     key-positions = <P_Y P_U>;
     bindings = <&m_gen_chord_you>;
 };
+// == GEN_COMBO_END
 
     };
 

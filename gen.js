@@ -1,18 +1,18 @@
 const cc = {
+    ht: 'hot',
+    ho: 'how',
+    yr: 'your',
+    yu: 'you',
+    if: 'if',
+    fr: 'for',
     the: 'the',
     cso: 'const',
     let: 'let',
     reu: 'return',
-    if: 'if',
-    fr: 'for',
     fom: 'from',
     whi: 'while',
     his: 'his',
     oht: 'other',
-    ho: 'how',
-    ht: 'hot',
-    yr: 'your',
-    yu: 'you'
 };
 
 const genMacro = (word) => {
