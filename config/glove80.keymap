@@ -106,7 +106,7 @@
 #define P_DOT 55
 #define P_SLASH 56
 
-#define COMBO_TIMEOUT 150
+#define COMBO_TIMEOUT 180
 #define MACRO_TAP 10
 #define MACRO_WAIT 0
 
@@ -209,11 +209,6 @@ m_gen_chord_return: m_gen_chord_return {
     #binding-cells = <0>;
     bindings = <&kp R>, <&kp E>, <&kp T>, <&kp U>, <&kp R>, <&kp N>;
 };
-m_gen_chord_for: m_gen_chord_for {
-    compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
-    bindings = <&kp F>, <&kp O>, <&kp R>;
-};
 m_gen_chord_from: m_gen_chord_from {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
@@ -262,6 +257,12 @@ m_gen_chord_you: m_gen_chord_you {
         //
         compatible = "zmk,combos";
 
+        combo_caps_word {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <P_F P_R>;
+            bindings = <&caps_word>;
+        };
+
 // == GEN_COMBO_START
 combo_gen_the {
     timeout-ms = <COMBO_TIMEOUT>;
@@ -282,11 +283,6 @@ combo_gen_return {
     timeout-ms = <COMBO_TIMEOUT>;
     key-positions = <P_R P_E P_U>;
     bindings = <&m_gen_chord_return>;
-};
-combo_gen_for {
-    timeout-ms = <COMBO_TIMEOUT>;
-    key-positions = <P_F P_R>;
-    bindings = <&m_gen_chord_for>;
 };
 combo_gen_from {
     timeout-ms = <COMBO_TIMEOUT>;
