@@ -262,6 +262,12 @@ m_gen_chord_you: m_gen_chord_you {
         //
         compatible = "zmk,combos";
 
+        combo_caps_lock {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <P_F P_J>;
+            bindings = <&caps_word>;
+        };
+
 // == GEN_COMBO_START
 combo_gen_the {
     timeout-ms = <COMBO_TIMEOUT>;
